@@ -1,0 +1,22 @@
+@import '~material-colors/dist/colors';
+body {
+  margin: 0; 
+  padding: 50px;
+  font-family: Roboto, sans-serif;
+}
+
+
+.road{
+	fill: none;
+	stroke-width: 10px;
+	stroke: $md-grey-100;
+}
+
+.car{
+	width: 4px;
+	x:-2px;
+	height: 2px;
+	stroke: white;
+	stroke-width: .5px;
+	// fill: $md-pink-500;
+}
