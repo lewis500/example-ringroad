@@ -14,9 +14,17 @@ body {
 
 .car{
 	width: 4px;
-	x:-2px;
+	x: -2px;
+	// y: -2px;
+	dy:-5px;
 	height: 2px;
 	stroke: white;
 	stroke-width: .5px;
 	// fill: $md-pink-500;
+}
+
+.myRoad{
+	stroke-width: 10px;
+	stroke: black;
+	fill: none;
 }
